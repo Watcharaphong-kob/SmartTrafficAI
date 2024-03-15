@@ -1,0 +1,13 @@
+train: C:\Users\Kobiz\Documents\Term_2\AI_Tech\Project\SmartTrafficAI\ultralytics-main\train\images
+val: C:\Users\Kobiz\Documents\Term_2\AI_Tech\Project\SmartTrafficAI\ultralytics-main\valid\images
+test: C:\Users\Kobiz\Documents\Term_2\AI_Tech\Project\SmartTrafficAI\ultralytics-main\test
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: object-detection-lqfd9
+  project: car-detection-labqn
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-lqfd9/car-detection-labqn/dataset/3
